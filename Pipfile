@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 apache-airflow = "*"
+kafka-python-ng = "*"
 
 [dev-packages]
 
