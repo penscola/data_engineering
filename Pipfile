@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 apache-airflow = "*"
 kafka-python-ng = "*"
+cassandra-driver = "*"
+spark = "*"
+pyspark = "*"
 
 [dev-packages]
 
