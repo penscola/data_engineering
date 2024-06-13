@@ -116,7 +116,7 @@ services:
     volumes:
       - ./dags:/opt/airflow/dags
       - ./script/entrypoint.sh:/opt/airflow/script/entrypoint.sh
-      - ./requirements.txt:/opt/airflow/requirements.txt
+      - ./Pipfile.lock:/opt/airflow/Pipfile.lock
     ports:
       - "8080:8080"
     healthcheck:
@@ -135,7 +135,7 @@ services:
     volumes:
       - ./dags:/opt/airflow/dags
       - ./script/entrypoint.sh:/opt/airflow/script/entrypoint.sh
-      - ./requirements.txt:/opt/airflow/requirements.txt
+      - ./Pipfile.lock:/opt/airflow/Pipfile.lock
     environment:
       - LOAD_EX=n
       - EXECUTOR=Sequential
