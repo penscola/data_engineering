@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dlt[workspace]>=0.1.0",
+    "dlt[workspace]>=1.22.0",
     "jupyter>=1.1.1",
     "notebook>=7.5.3",
     "numpy>=2.4.2",
